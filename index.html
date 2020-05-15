@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>个人简历</title>
+
+  <script src="./js/iconfont.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <div id="topNavBar" class="topNavBar">
+    <div class="topNavBar-inner clearfix">
+      <a class="logo" href="" alt="logo" style="float: left;">
+        <span class="rs">RS</span>
+        <span class="card">card</span>
+      </a>
+      <nav class="menu" style="float: right;">
+        <ul class="clearfix">
+          <li>
+            <a href="#siteAbout">关于</a>
+          </li>
+          <li>
+            <a href="#siteSkills">技能</a>
+          </li>
+          <li>
+            <a href="#siteWorks">作品</a>
+            <ul class="submenu">
+              <li><a href="https://github.com/xuewen2980/cnode" target="_blank">cnode社区</a></li>
+              <li><a href="https://github.com/xuewen2980/canvas" target="_blank">我的画板</a></li>
+              <li><a href="https://github.com/xuewen2980/nav-label" target="_blank">快捷的导航</a> </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">博客</a>
+            <ul class="submenu">
+              <li><a href="https://www.cnblogs.com/xuewen1999/">博客园</a></li>
+              <li><a href="https://xuewen.blog.luogu.org/" target="_blank">落谷</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2531274564&amp;site=qq&amp;menu=yes" target="_blank">联系方式</a>
+          </li>
+          <li>
+            <a href="#">其他</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="mask"></div>
+  </div>
+  <main>
+    <div data-x id="siteAbout" class="userCard">
+      <div class="pictureAndText clearfix">
+        <div class="picture">
+          <img src="./img/avatar.jpg" width=299 height=347 alt="头像">
+        </div>
+        <div class="text">
+          <span class="welcome">个人信息
+            <span class="triangle"></span>
+          </span>
+          <h1 style="color: #fff;">张学文</h1>
+          <p style="color: #e47676;">前端开发工程师</p>
+          <hr>
+          <dl>
+            <dt>年龄</dt>
+            <dd>21</dd>
+            <dt>所在城市</dt>
+            <dd>江西九江</dd>
+            <dt>邮箱</dt>
+            <dd>2531274564@qq.com</dd>
+            <dt>手机</dt>
+            <dd>17346606188</dd>
+            <dt>毕业院校</dt>
+            <dd>九江职业技术学院</dd>
+            <dt>工作经验</dt>
+            <dd>三年</dd>
+          </dl>
+        </div>
+      </div>
+      <footer class="media">
+        <a href="https://github.com/xuewen2980" target="_blank">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-github"></use>
+          </svg>
+        </a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=2531274564&site=qq&menu=yes" target="_blank">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-QQ"></use> 
+          </svg>
+        </a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=2531274564&site=qq&menu=yes" target="_blank">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-weixin1"></use>
+          </svg>
+        </a>
+      </footer>
+    </div>
+
+    <p class="downloadResume-wrapper">
+      <a class="downloadResume" href="./resume.pdf" target="_blank" download>下载 PDF 简历</a>
+    </p>
+  </main>
+  <section data-x id="siteSkills" class="skills">
+    <h2>技能</h2>
+    <ol class="clearfix">
+      <li>
+        <h3>
+          HTML 5 &amp; CSS 3
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 60%;"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          JavaScript
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 60%"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          jQuery
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 75%"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          Vue.js
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 50%"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          React.js
+        </h3>
+        <div class="progressBar">
+          <div class="progress"  style="width: 30%"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          Node.js
+        </h3>
+        <div class="progressBar">
+          <div class="progress"  style="width: 10%"></div>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <section data-x class="portfolio" id="siteWorks">
+    <h2>作品预览</h2>
+    <!-- Slider main container -->
+    <div id="mySlides">
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <a href="https://github.com/xuewen2980/cnode" target="_blank"><img src="./img/works/cnode.png" width="700" height="500"></a><h2>Vue实现CNODE社区</h2>
+          </div>
+          <div class="swiper-slide"><a href="https://github.com/xuewen2980/music" target="_blank"><img src="./img/works/music.png" width="700" height="500"></a><h2>网页音乐播放</h2></div>
+          <div class="swiper-slide"><a href="https://xuewen2980.github.io/nav-label/index.html" target="_blank"><img src="./img/works/nav-page.jpg" width="700" height="500"></a><h2>快捷的导航</h2></div>
+          <div class="swiper-slide"><a href="https://xuewen2980.github.io/canvas/index.html" target="_blank"><img src="./img/works/canvas.jpg" width="700" height="500"></a><h2>不错的画板</h2></div>
+          
+        </div>
+        <!-- If we need navigation buttons -->
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+  <script src="./js/base/View.js"></script>
+  <!-- 模块化 -->
+  <script src="./js/init-swiper.js"></script>
+  <script src="./js/auto-slide-up.js"></script>
+  <script src="./js/sticky-topbar.js"></script>
+  <script src="./js/navigation.js"></script>
+</body>
+
+</html>
